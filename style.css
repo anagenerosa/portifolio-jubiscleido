@@ -73,25 +73,5 @@ main {
     font-size: 5rem;
     text-decoration: none;
 }
-.estrela-solta {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.estrela-solta a {
-    font-size: 5rem;
-    color: var(--verde);
-    text-decoration: none;
-    transition: color 0.3s ease, text-shadow 0.3s ease;
-}
-
-/* Efeito hover direto na estrela */
-.estrela-solta:hover {
-    transform: translateY(-10px) scale(1.1);
-}
-
-.estrela-solta a:hover {
-    color: var(--marinho);
-    text-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-}
 
 
