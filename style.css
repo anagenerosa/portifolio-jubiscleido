@@ -73,5 +73,38 @@ main {
     font-size: 5rem;
     text-decoration: none;
 }
+.star {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid red; /* Cor da estrela */
+  position: relative;
+}
 
+.star:before {
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: -50px;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 70px solid red; /* Cor da estrela */
+  transform: rotate(72deg);
+}
+
+.star:after {
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: -50px;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 70px solid red; /* Cor da estrela */
+  transform: rotate(-72deg);
+}
 
