@@ -6,13 +6,13 @@
 
 :root{
     --preto: #000000;
-    --marinho: #493D9E;
-    --amarelo-claro:#FFF2AF;
-    --roxo-claro:#B2A5FF;
-    --verde: #99BC85;
+    --marinho: #27a23c;
+    --amarelo-claro:#023f6e;
+    --roxo-claro:#3d24c8;
+    --verde: #ffffff;
     --azul-claro: #E4EFE7;
     --branco: #FFFFFF;
-    --marron-claro: #FAF1E6;
+    --marron-claro: #b06810;
 }
 
 body{
