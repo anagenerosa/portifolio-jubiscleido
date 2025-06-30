@@ -43,12 +43,12 @@ main {
 
 
 .container {
-    display: flex;
+    display: grid;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     gap: 50px;
-    flex-wrap: wrap;
+    grid-template-columns: 33% 33% 33%;
 }
 
 .disciplina {
