@@ -40,7 +40,7 @@ header {
 }
 
 .botao-disciplinas {
-    cursor: pointer;
+    cursor: url('link-do-cursor.cur'), auto;
     font-size: 2rem;
     background: none;
     background-color: var(--preto);
