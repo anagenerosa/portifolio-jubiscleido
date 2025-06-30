@@ -73,40 +73,5 @@ main {
     font-size: 5rem;
     text-decoration: none;
 }
-body {
-  background-color: #fdf6e3;
-  font-family: sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 40px;
-  padding: 40px;
-}
 
-.botoes {
-  display: inline-block;
-  width: 150px;
-  height: 150px;
-  background: #ffd700;
-  clip-path: polygon(
-    50% 0%, 61% 35%, 98% 35%, 68% 57%,
-    79% 91%, 50% 70%, 21% 91%, 32% 57%,
-    2% 35%, 39% 35%
-  );
-  text-align: center;
-  line-height: 150px;
-  color: #000;
-  font-weight: bold;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  font-size: 16px;
-}
-
-.botoes:hover {
-  background: #ffc107;
-  transform: scale(1.05);
-  color: #222;
-}
 
