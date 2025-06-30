@@ -40,7 +40,7 @@ header {
 }
 
 .botao-disciplinas {
- cursor: <i class="fa-solid fa-star"></i>
+ cursor:  class="fa-solid fa-star"
     font-size: 2rem;
     background: none;
     background-color: var(--preto);
