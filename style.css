@@ -55,7 +55,7 @@ main {
     display: flex;
     justify-content: center;
     background-color: var(--branco);
-    border-radius: 80px;
+    border-radius: 90px;
     padding: 30px;
     width: 80%;
     min-width: 280px;
@@ -70,7 +70,7 @@ main {
 
 .disciplina a {
     color: var(--verde);
-    font-size: 3rem;
+    font-size: 2rem;
     text-decoration: none;
 }
 
