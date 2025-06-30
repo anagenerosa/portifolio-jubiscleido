@@ -88,7 +88,7 @@ header {
 .links-principais {
     width: 80%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -185,7 +185,7 @@ h1 {
 
 .home a {
     font-size: 2rem;
-    color: var(--verde);
+    color: var(--preto);
 }
 
 .conteudo ul li .block {
