@@ -40,7 +40,7 @@ header {
 }
 
 .botao-disciplinas {
-    cursor: url('link-do-cursor.cur'), auto;
+ cursor: url('estrela.png') 16 16, auto;
     font-size: 2rem;
     background: none;
     background-color: var(--preto);
